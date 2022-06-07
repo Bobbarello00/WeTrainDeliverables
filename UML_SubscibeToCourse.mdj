@@ -50,7 +50,7 @@
 											"font": "Arial;13;0",
 											"left": 357,
 											"top": 85,
-											"width": 261.060546875,
+											"width": 279.494140625,
 											"height": 13,
 											"text": "«boundary»"
 										},
@@ -64,7 +64,7 @@
 											"font": "Arial;13;1",
 											"left": 357,
 											"top": 100,
-											"width": 261.060546875,
+											"width": 279.494140625,
 											"height": 13,
 											"text": "SubscribeToCourseAthleteBoundary"
 										},
@@ -102,7 +102,7 @@
 									"font": "Arial;13;0",
 									"left": 352,
 									"top": 80,
-									"width": 271.060546875,
+									"width": 289.494140625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGA3HSojfzdQto="
@@ -130,7 +130,7 @@
 									"font": "Arial;13;0",
 									"left": 352,
 									"top": 118,
-									"width": 295.060546875,
+									"width": 313.494140625,
 									"height": 10
 								},
 								{
@@ -156,7 +156,7 @@
 											"font": "Arial;13;0",
 											"left": 357,
 											"top": 133,
-											"width": 285.060546875,
+											"width": 303.494140625,
 											"height": 13,
 											"text": "+searchCourseByFilters()",
 											"horizontalAlignment": 0
@@ -174,9 +174,9 @@
 											"font": "Arial;13;0",
 											"left": 357,
 											"top": 148,
-											"width": 285.060546875,
+											"width": 303.494140625,
 											"height": 13,
-											"text": "-checkIfAlreadySubscribed(course: CourseBean)",
+											"text": "-isAlreadySubscribed(course: CourseBean): boolean",
 											"horizontalAlignment": 0
 										},
 										{
@@ -192,7 +192,7 @@
 											"font": "Arial;13;0",
 											"left": 357,
 											"top": 163,
-											"width": 285.060546875,
+											"width": 303.494140625,
 											"height": 13,
 											"text": "+subscribe()",
 											"horizontalAlignment": 0
@@ -202,7 +202,7 @@
 									"font": "Arial;13;0",
 									"left": 352,
 									"top": 128,
-									"width": 295.060546875,
+									"width": 313.494140625,
 									"height": 53
 								},
 								{
@@ -245,7 +245,7 @@
 							"containerChangeable": true,
 							"left": 352,
 							"top": 80,
-							"width": 295.060546875,
+							"width": 313.494140625,
 							"height": 101,
 							"stereotypeDisplay": "decoration-label",
 							"nameCompartment": {
@@ -7797,7 +7797,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGA3HSojfzZ7zQ="
 							},
-							"name": "checkIfAlreadySubscribed",
+							"name": "isAlreadySubscribed",
 							"visibility": "private",
 							"parameters": [
 								{
@@ -7810,6 +7810,15 @@
 									"type": {
 										"$ref": "AAAAAAGA4Z27NSk+Wvk="
 									}
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGBPtoWy4HO/PY=",
+									"_parent": {
+										"$ref": "AAAAAAGA7GxINTJTOuU="
+									},
+									"type": "boolean",
+									"direction": "return"
 								}
 							]
 						},
@@ -29587,7 +29596,7 @@
 											"font": "Arial;13;0",
 											"left": 573,
 											"top": 213,
-											"width": 285.060546875,
+											"width": 303.494140625,
 											"height": 13,
 											"text": "«GUI Controller»"
 										},
@@ -29601,7 +29610,7 @@
 											"font": "Arial;13;1",
 											"left": 573,
 											"top": 228,
-											"width": 285.060546875,
+											"width": 303.494140625,
 											"height": 13,
 											"text": "CourseOverviewGUIController"
 										},
@@ -29639,7 +29648,7 @@
 									"font": "Arial;13;0",
 									"left": 568,
 									"top": 208,
-									"width": 295.060546875,
+									"width": 313.494140625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGA4kybUijAUU0="
@@ -29667,7 +29676,7 @@
 									"font": "Arial;13;0",
 									"left": 568,
 									"top": 246,
-									"width": 295.060546875,
+									"width": 313.494140625,
 									"height": 10
 								},
 								{
@@ -29693,9 +29702,9 @@
 											"font": "Arial;13;0",
 											"left": 573,
 											"top": 261,
-											"width": 285.060546875,
+											"width": 303.494140625,
 											"height": 13,
-											"text": "-checkIfAlreadySubscribed(course: CourseBean)",
+											"text": "-isAlreadySubscribed(course: CourseBean): boolean",
 											"horizontalAlignment": 0
 										},
 										{
@@ -29711,7 +29720,7 @@
 											"font": "Arial;13;0",
 											"left": 573,
 											"top": 276,
-											"width": 285.060546875,
+											"width": 303.494140625,
 											"height": 13,
 											"text": "+subscribe()",
 											"horizontalAlignment": 0
@@ -29721,7 +29730,7 @@
 									"font": "Arial;13;0",
 									"left": 568,
 									"top": 256,
-									"width": 295.060546875,
+									"width": 313.494140625,
 									"height": 38
 								},
 								{
@@ -29764,7 +29773,7 @@
 							"containerChangeable": true,
 							"left": 568,
 							"top": 208,
-							"width": 295.060546875,
+							"width": 313.494140625,
 							"height": 86,
 							"nameCompartment": {
 								"$ref": "AAAAAAGA4kybUii/RDQ="
@@ -34030,7 +34039,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGA4kybUSi8Ero="
 							},
-							"name": "checkIfAlreadySubscribed",
+							"name": "isAlreadySubscribed",
 							"visibility": "private",
 							"parameters": [
 								{
@@ -34043,6 +34052,15 @@
 									"type": {
 										"$ref": "AAAAAAGA4Z27NSk+Wvk="
 									}
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGBPtncFHypAoU=",
+									"_parent": {
+										"$ref": "AAAAAAGA7HAia0e4i9k="
+									},
+									"type": "boolean",
+									"direction": "return"
 								}
 							]
 						},
@@ -35171,7 +35189,7 @@
 									"font": "Arial;13;0",
 									"left": 644.5,
 									"top": 475,
-									"width": 136,
+									"width": 137.13720703125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGA4oW/tp1HOuk="
@@ -35591,7 +35609,7 @@
 									"font": "Arial;13;0",
 									"left": 808.5,
 									"top": 684.5,
-									"width": 116,
+									"width": 116.88818359375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGA4oafxp2pCMk="
@@ -38823,17 +38841,17 @@
 												"$ref": "AAAAAAGA+vBIAgCMx1A="
 											},
 											"font": "Arial;13;0",
-											"left": 251,
+											"left": 255,
 											"top": 728,
-											"width": 302.76416015625,
+											"width": 320.8486328125,
 											"height": 13,
-											"alpha": 1.7294505765008,
-											"distance": 126.58988901172162,
+											"alpha": 1.7147207658971642,
+											"distance": 139.44174410842686,
 											"hostEdge": {
 												"$ref": "AAAAAAGA+vBIAwCN+k0="
 											},
 											"edgePosition": 1,
-											"text": "12 : checkIfAlreadySubscribed(course: CourseBean)"
+											"text": "12 : isAlreadySubscribed(course: CourseBean):boolean"
 										},
 										{
 											"_type": "EdgeLabelView",
