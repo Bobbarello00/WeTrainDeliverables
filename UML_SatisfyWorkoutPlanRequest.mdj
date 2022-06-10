@@ -57877,9 +57877,9 @@
 									"font": "Arial;13;0",
 									"left": 744,
 									"top": 192,
-									"width": 249,
+									"width": 201,
 									"height": 38,
-									"text": "select[selected==request]/Display request overview"
+									"text": "select[selected==request]/ Display request overview"
 								},
 								{
 									"_type": "UMLTextView",
@@ -59377,10 +59377,10 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1400,
-									"top": 192,
-									"width": 183.42431640625,
-									"height": 25,
-									"text": "select[selected==workoutDay]"
+									"top": 184,
+									"width": 187.0361328125,
+									"height": 38,
+									"text": "select[selected==workoutDay]/ Set workout day as selected"
 								},
 								{
 									"_type": "UMLTransitionView",
@@ -60891,7 +60891,7 @@
 										"$ref": "AAAAAAGA8oPiHWHMcBo="
 									},
 									"font": "Arial;13;0",
-									"left": 2296,
+									"left": 2288,
 									"top": 128,
 									"width": 355.72802734375,
 									"height": 51,
