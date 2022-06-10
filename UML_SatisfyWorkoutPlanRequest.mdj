@@ -57879,7 +57879,7 @@
 									"top": 192,
 									"width": 249,
 									"height": 38,
-									"text": "select[selected==request]/display request overview"
+									"text": "select[selected==request]/Display request overview"
 								},
 								{
 									"_type": "UMLTextView",
@@ -58149,9 +58149,9 @@
 									"font": "Arial;13;0",
 									"left": 1120,
 									"top": 520,
-									"width": 198.59521484375,
+									"width": 200.76611328125,
 									"height": 77,
-									"text": "click[clicked==rejectButton]/send reject notification to the athlete and delete the request"
+									"text": "click[clicked==rejectButton]/ Send reject notification to the athlete and delete the request"
 								},
 								{
 									"_type": "UMLTextView",
@@ -58162,9 +58162,9 @@
 									"font": "Arial;13;0",
 									"left": 1224,
 									"top": 240,
-									"width": 215.92431640625,
+									"width": 218.08251953125,
 									"height": 64,
-									"text": "click[clicked==satisfyButton]/display satisfy request form"
+									"text": "click[clicked==satisfyButton]/ Display satisfy request form"
 								},
 								{
 									"_type": "UMLStateView",
@@ -58426,9 +58426,9 @@
 									"font": "Arial;13;0",
 									"left": 1832,
 									"top": 72,
-									"width": 207.2724609375,
+									"width": 209.4306640625,
 									"height": 38,
-									"text": "select[selected==exercise]/display exercise overview"
+									"text": "select[selected==exercise]/ Display exercise overview"
 								},
 								{
 									"_type": "UMLTransitionView",
@@ -58535,7 +58535,7 @@
 									"top": 160,
 									"width": 401,
 									"height": 77,
-									"text": "click[clicked==addButton && exercise not already in the selected  workout day]/add exercise to selected workout day"
+									"text": "click[clicked==addButton && exercise not already in the selected  workout day]/ Add exercise to selected workout day"
 								},
 								{
 									"_type": "UMLFinalStateView",
@@ -58995,10 +58995,10 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1752,
-									"top": 248,
+									"top": 240,
 									"width": 355.72802734375,
 									"height": 51,
-									"text": "click[clicked==removeButton && exercise already in the selected workout day]/remove exercise from selected workout day"
+									"text": "click[clicked==removeButton && exercise already in the selected workout day]/ Remove exercise from selected workout day"
 								},
 								{
 									"_type": "UMLStateView",
@@ -59168,7 +59168,7 @@
 									"top": 88,
 									"width": 226.759765625,
 									"height": 51,
-									"text": "click[clicked==askClarificationButton]/ display email form"
+									"text": "click[clicked==askClarificationButton]/ Display email form"
 								},
 								{
 									"_type": "UMLTransitionView",
@@ -59485,9 +59485,9 @@
 									"font": "Arial;13;0",
 									"left": 1160,
 									"top": 152,
-									"width": 194.99609375,
+									"width": 197.1669921875,
 									"height": 51,
-									"text": "click[clicked==sendButton]/send email AND send notificaion"
+									"text": "click[clicked==sendButton]/ Send email AND send notificaion"
 								},
 								{
 									"_type": "UMLTransitionView",
@@ -59594,7 +59594,7 @@
 									"top": 448,
 									"width": 240.9912109375,
 									"height": 51,
-									"text": "click[clicked==sendWorkoutPlanButton]/ send workout plan to athlete AND send notification"
+									"text": "click[clicked==sendWorkoutPlanButton]/ Send workout plan to athlete AND send notification"
 								},
 								{
 									"_type": "UMLTransitionView",
@@ -60084,7 +60084,7 @@
 									"top": 424,
 									"width": 291.06787109375,
 									"height": 41,
-									"text": "click[clicked==createNewExerciseButton]/display create exercise form"
+									"text": "click[clicked==createNewExerciseButton]/ Display create exercise form"
 								},
 								{
 									"_type": "UMLTransitionView",
@@ -60189,9 +60189,9 @@
 									"font": "Arial;13;0",
 									"left": 1744,
 									"top": 488,
-									"width": 231.5966796875,
+									"width": 201,
 									"height": 41,
-									"text": "click[clicked==createButton]/create exercise"
+									"text": "click[clicked==createButton]/ Create exercise"
 								},
 								{
 									"_type": "UMLTransitionView",
@@ -60309,7 +60309,7 @@
 									"top": 48,
 									"width": 229.66064453125,
 									"height": 51,
-									"text": "click[clicked==searchExerciseButton]/ filter exercise list AND update the exercise list"
+									"text": "click[clicked==searchExerciseButton]/ Filter exercise list AND update the exercise list"
 								},
 								{
 									"_type": "UMLTransitionView",
@@ -60524,6 +60524,485 @@
 									"width": 196.4306640625,
 									"height": 25,
 									"text": "click[clicked==cancelButton]/null"
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "AAAAAAGBTrb1BhtVSqw=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHMcBo="
+									},
+									"model": {
+										"$ref": "AAAAAAGBTrb1BhtUaqM="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGBTrb1BhtWCSA=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrb1BhtVSqw="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrb1BhtUaqM="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGBTrb1BhtXUsI=",
+													"_parent": {
+														"$ref": "AAAAAAGBTrb1BhtWCSA="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 576,
+													"top": 32,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGBTrb1BxtYOto=",
+													"_parent": {
+														"$ref": "AAAAAAGBTrb1BhtWCSA="
+													},
+													"font": "Arial;13;1",
+													"left": 2725,
+													"top": 103,
+													"width": 139.46435546875,
+													"height": 13,
+													"text": "On Error Message"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGBTrb1BxtZdzA=",
+													"_parent": {
+														"$ref": "AAAAAAGBTrb1BhtWCSA="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 576,
+													"top": 32,
+													"width": 38.27001953125,
+													"height": 13,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGBTrb1BxtaE5Y=",
+													"_parent": {
+														"$ref": "AAAAAAGBTrb1BhtWCSA="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 576,
+													"top": 32,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 2720,
+											"top": 96,
+											"width": 149.46435546875,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGBTrb1BhtXUsI="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGBTrb1BxtYOto="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGBTrb1BxtZdzA="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGBTrb1BxtaE5Y="
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "AAAAAAGBTrb1BxtbsHA=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrb1BhtVSqw="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrb1BhtUaqM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 288,
+											"top": 16,
+											"width": 10,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "AAAAAAGBTrb1Bxtc1r0=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrb1BhtVSqw="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrb1BhtUaqM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 288,
+											"top": 16,
+											"width": 10,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "AAAAAAGBTrb1Bxtdz1M=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrb1BhtVSqw="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrb1BhtUaqM="
+											},
+											"font": "Arial;13;0",
+											"left": 2720,
+											"top": 121,
+											"width": 149.46435546875
+										}
+									],
+									"font": "Arial;13;0",
+									"containerChangeable": true,
+									"left": 2720,
+									"top": 96,
+									"width": 149.46435546875,
+									"height": 40,
+									"nameCompartment": {
+										"$ref": "AAAAAAGBTrb1BhtWCSA="
+									},
+									"internalActivityCompartment": {
+										"$ref": "AAAAAAGBTrb1BxtbsHA="
+									},
+									"internalTransitionCompartment": {
+										"$ref": "AAAAAAGBTrb1Bxtc1r0="
+									},
+									"decompositionCompartment": {
+										"$ref": "AAAAAAGBTrb1Bxtdz1M="
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAGBTrcm4ht7DPM=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHMcBo="
+									},
+									"model": {
+										"$ref": "AAAAAAGBTrcm4ht6NZ4="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBTrcm4xt83w8=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrcm4ht7DPM="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrcm4ht6NZ4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 2129,
+											"top": 83,
+											"width": 680.70361328125,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGBTrcm4ht7DPM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBTrcm4xt9RxM=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrcm4ht7DPM="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrcm4ht6NZ4="
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"left": 2469,
+											"top": 68,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAGBTrcm4ht7DPM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBTrcm4xt+FTQ=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrcm4ht7DPM="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrcm4ht6NZ4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 2469,
+											"top": 113,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGBTrcm4ht7DPM="
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGBTrb1BhtVSqw="
+									},
+									"tail": {
+										"$ref": "AAAAAAGA8qI0rWS2WQA="
+									},
+									"lineStyle": 2,
+									"points": "2218:104;2720:104",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "AAAAAAGBTrcm4xt83w8="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGBTrcm4xt9RxM="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGBTrcm4xt+FTQ="
+									}
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAGBTreDqBuNiBE=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHMcBo="
+									},
+									"font": "Arial;13;0",
+									"left": 2280,
+									"top": 56,
+									"width": 401,
+									"height": 51,
+									"text": "click[clicked==addButton && exercise already in the selected  workout day]/ Display error message for exercise already in workout day"
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAGBTrg8uhuZzag=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHMcBo="
+									},
+									"model": {
+										"$ref": "AAAAAAGBTrg8uhuYQoY="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBTrg8uhuaYKw=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrg8uhuZzag="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrg8uhuYQoY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 2469,
+											"top": 107,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGBTrg8uhuZzag="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBTrg8uxubo/I=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrg8uhuZzag="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrg8uhuYQoY="
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"left": 2469,
+											"top": 92,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAGBTrg8uhuZzag="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBTrg8uxucGEw=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrg8uhuZzag="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrg8uhuYQoY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 2469,
+											"top": 137,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGBTrg8uhuZzag="
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGBTrb1BhtVSqw="
+									},
+									"tail": {
+										"$ref": "AAAAAAGA8qI0rWS2WQA="
+									},
+									"lineStyle": 2,
+									"points": "2218:128;2720:128",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "AAAAAAGBTrg8uhuaYKw="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGBTrg8uxubo/I="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGBTrg8uxucGEw="
+									}
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAGBTrin4xuwlIk=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHMcBo="
+									},
+									"font": "Arial;13;0",
+									"left": 2296,
+									"top": 128,
+									"width": 355.72802734375,
+									"height": 51,
+									"text": "click[clicked==removeButton && exercise not already in the selected workout day]/ Display error message for exercise not found"
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAGBTrtK2hvE6p8=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHMcBo="
+									},
+									"model": {
+										"$ref": "AAAAAAGBTrtK2hvD2GA="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBTrtK2xvF+bk=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrtK2hvE6p8="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrtK2hvD2GA="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 2455,
+											"top": 25,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGBTrtK2hvE6p8="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBTrtK2xvGmVE=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrtK2hvE6p8="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrtK2hvD2GA="
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"left": 2455,
+											"top": 40,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAGBTrtK2hvE6p8="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBTrtK2xvH9As=",
+											"_parent": {
+												"$ref": "AAAAAAGBTrtK2hvE6p8="
+											},
+											"model": {
+												"$ref": "AAAAAAGBTrtK2hvD2GA="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 2456,
+											"top": -5,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGBTrtK2hvE6p8="
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGA8qI0rWS2WQA="
+									},
+									"tail": {
+										"$ref": "AAAAAAGBTrb1BhtVSqw="
+									},
+									"lineStyle": 2,
+									"points": "2776:96;2776:16;2136:16;2136:96",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "AAAAAAGBTrtK2xvF+bk="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGBTrtK2xvGmVE="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGBTrtK2xvH9As="
+									}
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAGBTruClBvbQkQ=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHMcBo="
+									},
+									"font": "Arial;13;0",
+									"left": 2280,
+									"top": 16,
+									"width": 401,
+									"height": 49,
+									"text": "click[clicked==okButton]/ null"
 								}
 							]
 						}
@@ -60614,6 +61093,14 @@
 										"$ref": "AAAAAAGA8oPiHWHLr6g="
 									},
 									"name": "On Create Exercise Form"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "AAAAAAGBTrb1BhtUaqM=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHLr6g="
+									},
+									"name": "On Error Message"
 								}
 							],
 							"transitions": [
@@ -61014,6 +61501,45 @@
 									},
 									"target": {
 										"$ref": "AAAAAAGA8oXrQGM6/5c="
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAGBTrcm4ht6NZ4=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHLr6g="
+									},
+									"source": {
+										"$ref": "AAAAAAGA8qI0rWS10EI="
+									},
+									"target": {
+										"$ref": "AAAAAAGBTrb1BhtUaqM="
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAGBTrg8uhuYQoY=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHLr6g="
+									},
+									"source": {
+										"$ref": "AAAAAAGA8qI0rWS10EI="
+									},
+									"target": {
+										"$ref": "AAAAAAGBTrb1BhtUaqM="
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAGBTrtK2hvD2GA=",
+									"_parent": {
+										"$ref": "AAAAAAGA8oPiHWHLr6g="
+									},
+									"source": {
+										"$ref": "AAAAAAGBTrb1BhtUaqM="
+									},
+									"target": {
+										"$ref": "AAAAAAGA8qI0rWS10EI="
 									}
 								}
 							]
